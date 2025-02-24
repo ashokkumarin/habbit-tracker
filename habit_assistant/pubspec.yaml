@@ -1,0 +1,20 @@
+name: habit_assistant
+description: A personal assistant app for habit tracking and task management.
+version: 1.0.0
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  amplify_flutter: ^1.0.0          # AWS Amplify core
+  amplify_api: ^1.0.0             # GraphQL API
+  amplify_datastore: ^1.0.0       # Local data sync
+  flutter_local_notifications: ^9.0.0  # Notifications
+  intl: ^0.17.0                   # Date formatting
+  provider: ^6.0.0                # State management
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.16.0
